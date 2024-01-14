@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        /* Full-screen background image */
+        background: url('im.png') center center fixed;
+        background-size: cover;
+    }
+    span {
+        font-size: 200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background: url(svg.png);
+        background-size: cover;
+        transform: translate(-70%, -50%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-stroke-width: 3.5px;
+        -webkit-text-stroke-color: #FF2A2A;
+        animation: animate 8s infinite linear;
+        -webkit-box-reflect: below -30px linear-gradient(transparent, rgba(0, 0, 0, 0.4));
+    }
+
+    /* Add paragraphs in each corner */
+
+    @keyframes animate {
+        50% {
+            background-position-x: 100%;
+        }
+    }
+</style>
+</head>
+<body>
+    <span>
+        <i class="fa fa-heart"></i>
+    </span>
+
+    <!-- Add paragraphs in each corner -->
+    
+</body>
+</html>
